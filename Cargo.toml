@@ -1,0 +1,18 @@
+[package]
+name = "eft"
+description = "easy/encrypted file transfer"
+version = "0.1.0"
+authors = ["Crypto-Spartan <accounts@cryptospartan.net>"]
+homepage = "https://github.com/Crypto-Spartan/eft"
+repository = "https://github.com/Crypto-Spartan/eft"
+readme = "README.md"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[profile.release]
+lto = true
+codegen-units=1
